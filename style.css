@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    
+    
+    width: 40%;
+    margin: auto;
+    background-color:azure;
+    height: 100vh;
+    overflow: hidden;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(137, 137, 137);
+    padding: 20px;
+    height: 30px;
+
+}
+nav h5{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+
+}
+nav ul li img{
+    height: 40px;
+    border-radius: 40px;
+    padding-right: 20px;
+}
+nav ul li span{
+  position: absolute;
+  margin: 1px -38px;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    background-color:black;
+    border-radius: 50%;
+    padding-right: 4px;
+}
+.container{
+    height: auto;
+}
+.container-2 h3{
+    background-color: rgb(228, 199, 248);
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 15px;
+    height: 42px;
+    margin: 12px 20px;
+
+}
+.messages{
+    margin-bottom: 1px;
+    cursor: pointer;
+    padding-top: 10px;
+    height: 12px;
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    height: auto;
+    border-radius: 5px;
+    
+}
+.messages:hover{
+    box-shadow: 1px 1px 3px 0.4px;
+}
+.messages img{
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin: 12px 20px;
+}
+.messages h3{
+    margin-top: 12px;
+}
